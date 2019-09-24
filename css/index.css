@@ -89,6 +89,7 @@ video {
   font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -168,6 +169,27 @@ header nav a {
   color: #f2f2f2;
   font-size: 1.25rem;
   font-weight: 500;
+}
+.howItWorks {
+  display: flex;
+  justify-content: center;
+}
+.howItWorks h2 {
+  font-size: 2.5rem;
+  margin-top: 1%;
+}
+.steps {
+  display: flex;
+  border: 1px solid red;
+  padding: 3%;
+}
+.steps h3 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.steps p {
+  padding: 2%;
+  text-align: justify;
 }
 .features {
   display: flex;
