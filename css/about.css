@@ -70,6 +70,13 @@ a{
     line-height: 1.25;
     text-decoration: none;
     color: #50514F;
+    max-width: 100%;
+    margin: 1%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
 }
 
 header{
@@ -98,6 +105,12 @@ h1{
     color: #50514F;
 }
 
+h1.appEx{
+    @media(max-width: 800px){
+        display: none;
+    }
+}
+
 span{
     max-width: 100%;
     color: #247BA0;
@@ -116,14 +129,25 @@ p{
     display: flex;
 }
 
-.images{
-    max-width: 100%;
+
+div .profileframe{
+    border-top: 3px solid #247BA0;
+
+}
+
+div .profiles {
+    width: 150px;
+    height: 160px;
+}
+
+.images {
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 /***@825px width***********/
-@media(max-width:825px)
-
+.phone{
+    .appEX{
+        display: none;
+    }
+}
