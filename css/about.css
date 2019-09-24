@@ -129,6 +129,7 @@ p{
     width: 250px;
     padding: 2%;
     margin: 2%;
+
 }
 
 div .profiles {
@@ -139,6 +140,8 @@ div .profiles {
 .images {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 /***@825px width***********/
