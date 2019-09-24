@@ -63,7 +63,6 @@ nav{
     justify-content: flex-end;
     padding:1rem;
     border-bottom: 1px solid #247BA0;
-    text-decoration: none;
 }
 
 a{
@@ -89,14 +88,11 @@ header{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
     padding-left: 5rem;
     padding-right: 5rem;
     color: #50514F;
-    font-size: 1.25rem;
-    margin-top: 1.5rem;
 }
 
 h1{
@@ -128,10 +124,11 @@ p{
 
 
 .profileframe{
-    border: 1px solid #247BA0;
+   
     background-color: #CBD4C2;
-    width: 300px;
+    width: 250px;
     padding: 2%;
+    margin: 2%;
 }
 
 div .profiles {
