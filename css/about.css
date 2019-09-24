@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***************CSS Reset************/
+body{
+    background-color: #fffff4;  
+}
+
+p {
+    font-size: 30px;
+}
+
+nav{
+    max-width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    border-bottom: 1px solid #247BA0;
+    text-decoration: none;
+}
+
+a{
+    font-size: 1.25rem;
+    line-height: 1.25;
+    text-decoration: none;
+    color: #50514F;
+    max-width: 100%;
+    margin: 1%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: #50514F;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+h1{
+    max-width: 100%;
+    font-size: 2.25rem;
+    line-height: 1.25;
+    display: flex;
+    justify-content: center;
+    color: #50514F;
+}
+
+h1.appEx{
+    @media(max-width: 800px){
+        display: none;
+    }
+}
+
+span{
+    max-width: 100%;
+    color: #247BA0;
+}
+
+p{
+    max-width: 100%;
+    opacity: 0.9;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    line-height: 1.5;
+    display: flex;
+}
+
+
+div .profileframe{
+    border-top: 3px solid #247BA0;
+
+}
+
+div .profiles {
+    width: 150px;
+    height: 160px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/***@825px width***********/
+.phone{
+    .appEX{
+        display: none;
+    }
+}
