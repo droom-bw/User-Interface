@@ -48,11 +48,12 @@ table {
 }
 /***************CSS Reset************/
 body{
-    background-color: #fffff4;  
+    background-color: #fffff4;
+      
 }
 
 p {
-    font-size: 30px;
+    font-size: 31px;
 }
 
 nav{
@@ -60,7 +61,7 @@ nav{
     height:100%;
     display: flex;
     justify-content: flex-end;
-    padding: 1.5rem;
+    padding:1rem;
     border-bottom: 1px solid #247BA0;
     text-decoration: none;
 }
@@ -72,11 +73,13 @@ a{
     color: #50514F;
     max-width: 100%;
     margin: 1%;
+    padding-top: 5%;
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    padding-right: 50%;
 }
 
 header{
