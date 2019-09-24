@@ -105,12 +105,6 @@ h1{
     color: #50514F;
 }
 
-h1.appEx{
-    @media(max-width: 800px){
-        display: none;
-    }
-}
-
 span{
     max-width: 100%;
     color: #247BA0;
@@ -146,8 +140,4 @@ div .profiles {
 }
 
 /***@825px width***********/
-.phone{
-    .appEX{
-        display: none;
-    }
-}
+
