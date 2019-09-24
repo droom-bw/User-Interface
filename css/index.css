@@ -149,10 +149,12 @@ header nav a {
   text-decoration: none;
   border: 1px solid black;
 }
+body {
+  max-width: 1600px;
+}
 .cta {
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
   align-items: center;
   line-height: 2;
   padding: 10%;
@@ -180,8 +182,17 @@ header nav a {
 }
 .steps {
   display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
   border: 1px solid red;
-  padding: 3%;
+}
+@media (max-width:500px) {
+  .steps {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 }
 .steps h3 {
   text-align: center;
@@ -189,25 +200,66 @@ header nav a {
 }
 .steps p {
   padding: 2%;
-  text-align: justify;
+  text-align: center;
+}
+.steps .stepOne {
+  width: 33%;
+}
+@media (max-width:500px) {
+  .steps .stepOne {
+    width: 100%;
+  }
+}
+.steps .stepTwo {
+  width: 33%;
+}
+@media (max-width:500px) {
+  .steps .stepTwo {
+    width: 100%;
+  }
+}
+.steps .stepThree {
+  width: 33%;
+}
+@media (max-width:500px) {
+  .steps .stepThree {
+    width: 100%;
+  }
+}
+.featuresTitle {
+  display: flex;
+  justify-content: center;
+}
+.featuresTitle h2 {
+  font-size: 2.5rem;
+  margin-top: 1%;
 }
 .features {
   display: flex;
-  border: 1px solid red;
-  padding: 5%;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
 }
 .features h3 {
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 .features p {
-  padding: 2%;
-  text-align: justify;
+  padding: 1%;
+  text-align: center;
+}
+.features .featOne {
+  width: 75%;
+}
+.features .featTwo {
+  width: 75%;
+}
+.features .featThree {
+  width: 75%;
 }
 .benefits {
-  border: 1px solid purple;
   display: flex;
-  padding: 5%;
+  padding: 1%;
 }
 .benefits h3 {
   text-align: center;
