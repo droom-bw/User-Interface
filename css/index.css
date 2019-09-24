@@ -154,6 +154,9 @@ header nav a {
   text-decoration: none;
   color: #247BA0;
 }
+header nav a:hover {
+  font-weight: bold;
+}
 body {
   line-height: 1.25;
   background-color: #f2f2f2;
@@ -183,6 +186,10 @@ body {
   color: #f2f2f2;
   font-size: 1.25rem;
   font-weight: 500;
+}
+.cta button:hover {
+  background-color: #f2f2f2;
+  color: #247BA0;
 }
 @media (max-width:500px) {
   .cta button {
