@@ -127,9 +127,11 @@ p{
 }
 
 
-div .profileframe{
-    border-top: 3px solid #247BA0;
-
+.profileframe{
+    border: 1px solid #247BA0;
+    background-color: #CBD4C2;
+    width: 300px;
+    padding: 2%;
 }
 
 div .profiles {
