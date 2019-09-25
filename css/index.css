@@ -136,23 +136,39 @@ h1 {
 h3 {
   font-size: 1.5rem;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 header {
   display: flex;
-  flex-direction: column;
-  border: 1px solid red;
   align-items: center;
 }
 header nav {
-  border: 1px solid blue;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding-bottom: 0.5%;
 }
 header nav a {
   text-decoration: none;
-  border: 1px solid black;
+  color: #247BA0;
+}
+header nav a:hover {
+  font-weight: bold;
+  font-size: 125%;
+}
+body {
+  line-height: 1.25;
+  background-color: #f2f2f2;
+  color: #50514F;
 }
 .cta {
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
   align-items: center;
   line-height: 2;
   padding: 10%;
@@ -160,19 +176,35 @@ header nav a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width:500px) {
+  .cta {
+    color: #f2f2f2;
+  }
+}
 .cta button {
   width: 20%;
   margin-top: 2%;
   padding: 1% 0%;
+  border-radius: 5px;
   border: 2px solid #247BA0;
   background-color: #247BA0;
   color: #f2f2f2;
   font-size: 1.25rem;
   font-weight: 500;
 }
+.cta button:hover {
+  background-color: #f2f2f2;
+  color: #247BA0;
+}
+@media (max-width:500px) {
+  .cta button {
+    width: 50%;
+  }
+}
 .howItWorks {
   display: flex;
   justify-content: center;
+  margin-bottom: 1%;
 }
 .howItWorks h2 {
   font-size: 2.5rem;
@@ -180,8 +212,17 @@ header nav a {
 }
 .steps {
   display: flex;
-  border: 1px solid red;
-  padding: 3%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  border-bottom: 1px solid #50514F;
+}
+@media (max-width:500px) {
+  .steps {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 }
 .steps h3 {
   text-align: center;
@@ -189,36 +230,96 @@ header nav a {
 }
 .steps p {
   padding: 2%;
-  text-align: justify;
+  text-align: center;
+}
+.steps .stepOne {
+  width: 32%;
+}
+@media (max-width:500px) {
+  .steps .stepOne {
+    width: 100%;
+  }
+}
+.steps .stepTwo {
+  width: 32%;
+}
+@media (max-width:500px) {
+  .steps .stepTwo {
+    width: 100%;
+  }
+}
+.steps .stepThree {
+  width: 32%;
+}
+@media (max-width:500px) {
+  .steps .stepThree {
+    width: 100%;
+  }
+}
+.featuresTitle {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .featuresTitle {
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+}
+.featuresTitle h2 {
+  font-size: 2.5rem;
+  margin-top: 1%;
 }
 .features {
   display: flex;
-  border: 1px solid red;
-  padding: 5%;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
+  border-bottom: 1px solid #50514F;
 }
 .features h3 {
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 .features p {
-  padding: 2%;
-  text-align: justify;
-}
-.benefits {
-  border: 1px solid purple;
-  display: flex;
-  padding: 5%;
-}
-.benefits h3 {
+  padding: 1%;
   text-align: center;
-  margin-bottom: 2%;
 }
-.benefits p {
-  padding: 2%;
-  text-align: justify;
+.features .featOne {
+  width: 75%;
+}
+.features .featTwo {
+  width: 75%;
+}
+.features .featThree {
+  width: 75%;
+}
+.features button {
+  width: 20%;
+  margin-top: 2%;
+  padding: 1% 0%;
+  border-radius: 5px;
+  border: 2px solid #247BA0;
+  background-color: #247BA0;
+  color: #f2f2f2;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.features button:hover {
+  background-color: #f2f2f2;
+  color: #247BA0;
+}
+@media (max-width:500px) {
+  .features button {
+    width: 75%;
+  }
 }
 i {
   color: #247BA0;
   font-size: 3rem;
   text-align: center;
+}
+footer p {
+  text-align: center;
+  padding: 2% 0%;
 }
