@@ -141,9 +141,19 @@ h1{
     color: #50514F;
 }
 
+
 span{
     max-width: 100%;
     color: #247BA0;
+}
+
+@media(max-width:500px) {
+    .DroomIntro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
 }
 
 p{
@@ -166,7 +176,7 @@ p{
     width: 250px;
     padding: 2%;
     margin: 2%;
-    border: 1px solid #247BA0;
+    border: 4px solid #247BA0;
 }
 
 div .profiles {
