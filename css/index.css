@@ -139,6 +139,8 @@ h3 {
 .logo {
   display: flex;
   justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 header {
   display: flex;
@@ -149,6 +151,7 @@ header nav {
   align-items: center;
   justify-content: space-around;
   display: flex;
+  padding-bottom: 0.5%;
 }
 header nav a {
   text-decoration: none;
@@ -315,4 +318,8 @@ i {
   color: #247BA0;
   font-size: 3rem;
   text-align: center;
+}
+footer p {
+  text-align: center;
+  padding: 2% 0%;
 }
