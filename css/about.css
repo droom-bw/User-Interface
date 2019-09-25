@@ -136,8 +136,6 @@ h1{
     max-width: 100%;
     font-size: 2.25rem;
     line-height: 1.25;
-    display: flex;
-    justify-content: center;
     color: #50514F;
 }
 
@@ -177,6 +175,7 @@ p{
     padding: 2%;
     margin: 2%;
     border: 4px solid #247BA0;
+    background-color: #fffff4;
 }
 
 div .profiles {
@@ -191,3 +190,10 @@ div .profiles {
     text-align: center;
 }
 
+.DroomIntro{
+    text-align: center;
+}
+
+.meetTheTeamHeader{
+    text-align: center;
+}
