@@ -136,7 +136,6 @@ h1{
     max-width: 100%;
     font-size: 2.25rem;
     line-height: 1.25;
-  
     color: #50514F;
 }
 
@@ -191,3 +190,10 @@ div .profiles {
     text-align: center;
 }
 
+.DroomIntro{
+    text-align: center;
+}
+
+.meetTheTeamHeader{
+    text-align: center;
+}
