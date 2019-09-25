@@ -20,7 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+    font: inherit;
+    font-family: 'Roboto', sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -63,6 +64,14 @@ nav{
     justify-content: flex-end;
     padding:1rem;
     border-bottom: 1px solid #247BA0;
+}
+
+@media(max-width: 500px) {
+    .nav a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 a{
@@ -143,6 +152,4 @@ div .profiles {
     justify-content: space-evenly;
     text-align: center;
 }
-
-/***@825px width***********/
 
