@@ -20,7 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+    font: inherit;
+    font-family: 'Roboto', sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -56,6 +57,8 @@ p {
     font-size: 31px;
 }
 
+/* commented out to merge nav bars
+
 nav{
     max-width: 100%;
     height:100%;
@@ -63,6 +66,14 @@ nav{
     justify-content: flex-end;
     padding:1rem;
     border-bottom: 1px solid #247BA0;
+}
+
+@media(max-width: 500px) {
+    .nav a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 a{
@@ -79,9 +90,35 @@ a{
     width: 150px;
     height: 150px;
     padding-right: 50%;
-}
+} */
 
-header{
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  header {
+    display: flex;
+    align-items: center;
+  }
+  header nav {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 0.5%;
+  }
+  header nav a {
+    text-decoration: none;
+    color: #247BA0;
+  }
+  header nav a:hover {
+    font-weight: bold;
+    font-size: 125%;
+  } 
+
+.top-content{
     max-width: 100%;
     height: 100%;
     display: flex;
@@ -104,9 +141,19 @@ h1{
     color: #50514F;
 }
 
+
 span{
     max-width: 100%;
     color: #247BA0;
+}
+
+@media(max-width:500px) {
+    .DroomIntro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
 }
 
 p{
@@ -125,11 +172,11 @@ p{
 
 .profileframe{
    
-    background-color: #CBD4C2;
+  /*  background-color: #CBD4C2;*/
     width: 250px;
     padding: 2%;
     margin: 2%;
-
+    border: 4px solid #247BA0;
 }
 
 div .profiles {
@@ -143,6 +190,4 @@ div .profiles {
     justify-content: space-evenly;
     text-align: center;
 }
-
-/***@825px width***********/
 
