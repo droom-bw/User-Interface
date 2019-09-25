@@ -162,11 +162,11 @@ p{
 
 .profileframe{
    
-    background-color: #CBD4C2;
+  /*  background-color: #CBD4C2;*/
     width: 250px;
     padding: 2%;
     margin: 2%;
-
+    border: 1px solid #247BA0;
 }
 
 div .profiles {
